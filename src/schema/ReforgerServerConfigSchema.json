@@ -122,9 +122,9 @@
                                 "title": "name",
                                 "description": "This parameter doesn't do anything and is only used as sort of comment, with human readable name of the mod"
                             },
-                            "modID": {
+                            "modId": {
                                 "type": "string",
-                                "title": "modID",
+                                "title": "modId",
                                 "description": "GUID of the mod. It can be obtained from i.e. Workbench options when mod is running or directly from gproj file",
                                 "pattern": "^[A-Z0-9]{16}$",
                                 "minLength": 0
@@ -135,7 +135,7 @@
                                 "description": "The version mod parameter is optional. If it missing, the latest mod version will be used."
                             }
                         },
-                        "required": ["modID"]
+                        "required": ["modId"]
                     }
                 }
             },
